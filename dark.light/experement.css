@@ -1,0 +1,79 @@
+@import url(./reset.css);
+body{
+    background-color: var(--bg);
+}
+.site{
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+header{
+    background: var(--bg_block);
+    height: 200px;
+    width: 100% ;
+}
+.conteiner{
+    padding-block-start: 60px;
+    padding-block-end: 60px;
+    max-width: 1220px;
+    height: 100%;
+    margin: 0 auto;
+}
+.head{
+    display: flex;
+    column-gap: 650px;
+}
+.ul_categ{
+    list-style: none;
+    display: flex;
+    column-gap: 25px; 
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--bg_text_ul);
+}
+.button{
+    background-color: var(--bg);
+    color: var(--bg_text_ul);
+    width: 150px;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.categ{
+    padding-right: 25px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding-block-end: 60px;
+}
+.content_r, .content_l{
+    padding-block-start: 60px;
+    width: 50%;
+    padding-block-end: 60px;
+}
+img{
+    margin-top:25px ;
+}
+footer{
+    background-color: var(--bg_block);
+}
+.h1{
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--bg_text_ul);
+    text-align: center;
+}
+
+:root{
+        --bg:#F4F4F8;
+        --bg_block:#A9A9A9 ;
+        --bg_text_ul:#0E0D0D;
+}
+:root[theme='dark']{
+
+        --bg:#0E0D0D ;
+        --bg_block:#1E1E1E ;
+        --bg_text_ul:#F4F4F8;     
+    }
+
