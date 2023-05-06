@@ -1,0 +1,33 @@
+:root{
+    --osn:orange;
+    --nes:black;
+}
+.kv1, .kv2, .kv3, .kv4{
+    background-color: var(--nes);
+    width: 100px;
+    height: 100px;
+    position: fixed;
+}
+.kv1, .kv2, .kv4, .text{
+    background-color: var(--osn);
+
+}
+.kv2{
+    margin-top: 130px;
+    margin-left: 100px;
+}
+.kv3{
+    background-color: var(--nes);
+    border: 7px solid var(--osn);
+    margin-left: 250px;
+}
+.kv4{
+    margin-top: 300px;
+    margin-left: 150px;
+    overflow: hidden;
+}
+.nes{
+    background-color: var(--nes);
+    width: 100px;
+    height: 100%;
+}
