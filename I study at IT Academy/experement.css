@@ -1,0 +1,36 @@
+:root{
+    --c1:"I";
+    --c2:" study";
+    --c3:" at";
+    --c4:" IT";
+    --c5:" Academy";
+    --color:white;
+    --bg:#0E0D0D;
+    --size:24px;
+}
+body{
+    background-color: var(--bg);
+}
+.c1:after{
+    content:var(--c1);
+}
+.c2:after{
+    content:var(--c2);
+}
+.c3:after{
+    content:var(--c3);
+}
+.c4:after{
+    content:var(--c4);
+}
+.c5:after{
+    content:var(--c5);
+}
+.c1, .c2, .c3, .c4, .c5{
+    color:var(--color);
+    font-size: var(--size);
+    padding-right: 9px;
+}
+.rech{
+    display: flex;
+}
